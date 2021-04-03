@@ -31,19 +31,23 @@ ZERO code generation
 Neither an application server nor a web server - Provides a great integration with Tomacat, Jetty etc..
 
 Features
-Quick Starter Projects with Auto Configuration
+1. Quick Starter Projects with Auto Configuration
  - Web
-   - If want to develop an web application, we need Spring MVC, Spring Core, Validation Framewrok, Logging Framework and need to configure all these.
-   - With Springboot Starter Project, it becoems very easy. Just need to add **spring-boot-starter-web** and we get all these components free. This is the basic thing to create a web application or REST API
+   - If want to develop an web application, we need Spring MVC, Spring Core, Validation Framewrok, Logging Framework and 
+     need to configure all these.
+   - With Springboot Starter Project, it becoems very easy. Just need to add <i>spring-boot-starter-web</i> and we get all 
+     these components free. This is the basic thing to create a web application or REST API
  - JPA
-   - spring-boot-starter-data-jpa - to talk to DB. This gives as default implementaion of JPA with Hybernate and all required configs.
+   - spring-boot-starter-data-jpa - to talk to DB. This gives as default implementaion of JPA with Hybernate and 
+     all required configs.
 - Thus we no need to wory about framework part and just we can start creating our enteties.
-Embedded Servers - Tomcat, Jetty or Undertow
+2. Embedded Servers - Tomcat, Jetty or Undertow
    - Old way: Install Linux server -> Install Java -> Install web/appserver -> Deploy war/jar
-   - Spring boot brings concept of embedded server, I can package my App/web server along with app jar/war. Thus if on Linux box only Java is installed I can run      my application.
-Production-ready features
+   - Spring boot brings concept of embedded server, I can package my App/web server along with app jar/war. Thus if on Linux box only 
+     Java is installed I can run my application.
+3. Production-ready features
  - metrics and health checks 
-    - through actuators, I can find out how many times a prticular srevcie is called, how many times it failed, whether app is or not. ALl these are inbuilt. 
+    - through actuators, I can find out how many times a prticular srevcie is called, how many times it failed, whether app is or not. All these are inbuilt. 
  - externalized configuration
     - Just create properties file with simple naving convention.
 
